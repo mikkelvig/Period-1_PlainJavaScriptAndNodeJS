@@ -1,0 +1,60 @@
+
+Period-1 Plain JavaScript and Node.js
+
+Mikkel Vig
+
+This is an overview of the questions, followed by the exercises i would use to answer the question.
+Many of the exercises are the solutions to the JavaScript Exercises for period-1.
+
+
+
+- Explain the use of: "use strict"
+UseStrict.js & UseStrictLocalScope.js
+
+- Variable/function-Hoisting
+Hoisting-function.js & Hoisting-variables.js
+
+- this in JavaScript
+This.js
+
+- Function Closures and the JavaScript Module Pattern
+Closures&Modules-1.js & Closures&Modules-2.js
+
+- IIFE
+ImmediatelyInvokedFunctionExpressions.js
+
+- JavaScript Prototyping
+Prototyping.js & Prototyping-Array.js
+
+- Debugger
+Debugger.js
+
+- User defined Callback Functions
+Callbacks.js, Callbacks-2.js & Callbacks-3.js
+
+- Explain generally about node.js and NPM
+Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
+Node.js' package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+
+As an asynchronous event driven framework, Node.js is designed to build scalable network
+applications. In the following "hello world" example, many connections can be handled
+concurrently. Upon each connection the callback is fired, but if there is no work to be done,
+Node is sleeping.
+
+- User defined reusable modules implemented in Node.js
+ReusableModulesNodeJS.js & ReusableModulesNodeJS-part2.js
+(exercise 6 from learnyounode, merely running it from WebStorm wont work, because no arguments
+are provided.)
+
+
+
+Resources:
+
+nodejs.org
+w3schools.com
+wikipedia.org
+developer.mozilla.org
+javascriptissexy.com
+benalman.com
+
